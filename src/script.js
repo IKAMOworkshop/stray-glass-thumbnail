@@ -238,7 +238,7 @@ const tick = () =>
     renderedMesh.position.y = target.y * 0.5
 
     if(model){
-        model.position.x = -target.x + .36
+        model.position.x = -target.x 
         model.position.y = -target.y
     }
 
